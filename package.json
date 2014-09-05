@@ -1,0 +1,20 @@
+{
+  "name": "fxa-crypto-utils",
+  "version": "0.0.0",
+  "description": "Generate email pre-verify tokens for Firefox Accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint; mocha --recursive test/spec"
+  },
+  "author": "",
+  "license": "MPL 2.0",
+  "dependencies": {
+    "bigint": "0.4.2",
+    "bluebird": "2.3.2",
+    "jwcrypto": "0.4.4"
+  },
+  "devDependencies": {
+    "jshint": "2.5.5",
+    "mocha": "1.21.4"
+  }
+}
