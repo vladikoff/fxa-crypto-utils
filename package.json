@@ -1,6 +1,6 @@
 {
   "name": "fxa-crypto-utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate email pre-verify tokens for Firefox Accounts",
   "main": "index.js",
   "scripts": {
