@@ -1,0 +1,135 @@
+{
+  "name": "fxa-crypto-utils",
+  "version": "0.0.0",
+  "dependencies": {
+    "bigint": {
+      "version": "0.4.2",
+      "from": "bigint@0.4.2"
+    },
+    "bluebird": {
+      "version": "2.3.2",
+      "from": "bluebird@2.3.2",
+      "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-2.3.2.tgz"
+    },
+    "jwcrypto": {
+      "version": "0.4.4",
+      "from": "jwcrypto@0.4.4",
+      "dependencies": {
+        "browserify": {
+          "version": "1.13.5",
+          "from": "browserify@1.13.5",
+          "resolved": "https://registry.npmjs.org/browserify/-/browserify-1.13.5.tgz",
+          "dependencies": {
+            "detective": {
+              "version": "0.1.1",
+              "from": "detective@~0.1.1",
+              "dependencies": {
+                "uglify-js": {
+                  "version": "1.2.6",
+                  "from": "uglify-js@~1.2.5"
+                }
+              }
+            },
+            "deputy": {
+              "version": "0.0.4",
+              "from": "deputy@~0.0.0",
+              "dependencies": {
+                "mkdirp": {
+                  "version": "0.3.5",
+                  "from": "mkdirp@~0.3.3",
+                  "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+                },
+                "detective": {
+                  "version": "0.2.1",
+                  "from": "detective@~0.2.0",
+                  "dependencies": {
+                    "esprima": {
+                      "version": "0.9.9",
+                      "from": "esprima@~0.9.9"
+                    }
+                  }
+                }
+              }
+            },
+            "resolve": {
+              "version": "0.2.8",
+              "from": "resolve@~0.2.0"
+            },
+            "nub": {
+              "version": "0.0.0",
+              "from": "nub@~0.0.0"
+            },
+            "commondir": {
+              "version": "0.0.1",
+              "from": "commondir@~0.0.1"
+            },
+            "coffee-script": {
+              "version": "1.8.0",
+              "from": "coffee-script@1.x.x",
+              "dependencies": {
+                "mkdirp": {
+                  "version": "0.3.5",
+                  "from": "mkdirp@~0.3.5",
+                  "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+                }
+              }
+            },
+            "optimist": {
+              "version": "0.3.7",
+              "from": "optimist@~0.3.4",
+              "dependencies": {
+                "wordwrap": {
+                  "version": "0.0.2",
+                  "from": "wordwrap@~0.0.2"
+                }
+              }
+            },
+            "vm-browserify": {
+              "version": "0.0.4",
+              "from": "vm-browserify@~0.0.0",
+              "dependencies": {
+                "indexof": {
+                  "version": "0.0.1",
+                  "from": "indexof@0.0.1"
+                }
+              }
+            },
+            "crypto-browserify": {
+              "version": "0.4.0",
+              "from": "crypto-browserify@~0"
+            }
+          }
+        },
+        "http-browserify": {
+          "version": "0.1.1",
+          "from": "http-browserify@0.1.1"
+        },
+        "vows": {
+          "version": "0.5.13",
+          "from": "vows@0.5.13",
+          "resolved": "https://registry.npmjs.org/vows/-/vows-0.5.13.tgz",
+          "dependencies": {
+            "eyes": {
+              "version": "0.1.8",
+              "from": "eyes@>=0.1.6"
+            }
+          }
+        },
+        "optimist": {
+          "version": "0.2.6",
+          "from": "optimist@0.2.6",
+          "dependencies": {
+            "wordwrap": {
+              "version": "0.0.2",
+              "from": "wordwrap@>=0.0.1 <0.1"
+            }
+          }
+        },
+        "uglify-js": {
+          "version": "1.0.6",
+          "from": "uglify-js@1.0.6"
+        }
+      }
+    }
+  }
+}
