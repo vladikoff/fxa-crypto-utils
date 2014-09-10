@@ -6,7 +6,10 @@
   "scripts": {
     "test": "jshint; mocha --recursive test/spec"
   },
-  "author": "",
+  "author": "Mozilla Cloud Services Team",
+  "repository": "shane-tomlinson/fxa-crypto-utils",
+  "homepage": "https://github.com/shane-tomlinson/fxa-crypto-utils/",
+  "bugs": "https://github.com/shane-tomlinson/fxa-crypto-utils/issues/",
   "license": "MPL 2.0",
   "dependencies": {
     "bigint": "0.4.2",
