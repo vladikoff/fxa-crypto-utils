@@ -4,20 +4,20 @@
   "description": "Server side crypto utils for working with Firefox Accounts.",
   "main": "index.js",
   "scripts": {
-    "test": "jshint; mocha --recursive test/spec"
+    "test": "jshint; mocha --recursive --no-timeouts test/spec"
   },
   "author": "Mozilla Cloud Services Team",
   "repository": "shane-tomlinson/fxa-crypto-utils",
   "homepage": "https://github.com/shane-tomlinson/fxa-crypto-utils/",
   "bugs": "https://github.com/shane-tomlinson/fxa-crypto-utils/issues/",
-  "license": "MPL 2.0",
+  "license": "MPL-2.0",
   "dependencies": {
-    "bigint": "0.4.2",
+    "bignum": "0.10.2",
     "bluebird": "2.3.2",
-    "jwcrypto": "0.4.4"
+    "browserid-crypto": "0.7.0"
   },
   "devDependencies": {
     "jshint": "2.5.5",
-    "mocha": "1.21.4"
+    "mocha": "2.2.5"
   }
 }
