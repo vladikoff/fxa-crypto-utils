@@ -4,7 +4,7 @@
   "description": "Server side crypto utils for working with Firefox Accounts.",
   "main": "index.js",
   "scripts": {
-    "test": "jshint; mocha --recursive test/spec"
+    "test": "jshint; mocha --recursive --no-timeouts test/spec"
   },
   "author": "Mozilla Cloud Services Team",
   "repository": "shane-tomlinson/fxa-crypto-utils",

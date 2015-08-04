@@ -11,7 +11,6 @@ var PreverifiedEmailTokenGenerator = FxaCryptoUtils.PreverifiedEmailTokenGenerat
 var KeyPair = FxaCryptoUtils.KeyPair;
 
 describe('PreverifiedEmailTokenGenerator', function () {
-  this.timeout(5000);
   var secretKeyPath = path.join(__dirname, '..', 'keys', 'secret-key.json');
   var generator;
 

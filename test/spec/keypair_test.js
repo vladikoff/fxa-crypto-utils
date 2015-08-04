@@ -18,7 +18,6 @@ describe('KeyPair', function () {
   var PUBLIC_KEY_FILE = path.join(__dirname, 'public-key.json');
 
   describe('ephemeral keys', function () {
-    this.timeout(5000);
     before(function () {
       keyPair = new KeyPair();
     });
@@ -103,7 +102,6 @@ describe('KeyPair', function () {
   });
 
   describe('keys loaded from disk', function () {
-    this.timeout(5000);
     before(function () {
       var keyPairUsedToGenerate = new KeyPair();
       return keyPairUsedToGenerate.writeSecretKey(SECRET_KEY_FILE)
