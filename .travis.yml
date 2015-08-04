@@ -8,5 +8,5 @@ node_js:
   - "0.12"
 
 script:
-  - jshint .
+  - jshint lib test index.js
 
