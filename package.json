@@ -14,7 +14,7 @@
   "dependencies": {
     "bignum": "0.12.5",
     "bluebird": "2.3.2",
-    "browserid-crypto": "mozilla/browserid-crypto#15e2e51bc4b52431aa925d53d34eddb8a97d9428"
+    "browserid-crypto": "0.9.0"
   },
   "devDependencies": {
     "jshint": "2.5.5",
